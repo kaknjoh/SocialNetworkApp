@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace API.Data
 {
-    public class DataContext : IdentityDbContext
+    public class DataContext :DbContext
     {
         public DataContext(DbContextOptions options) : base(options)
         {
